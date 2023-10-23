@@ -1,0 +1,103 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 6, 36, 0.873);
+  margin-bottom: 40px;
+}
+body {
+  background-color:rgb(216, 244, 255);
+}
+header h1 {
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  min-width: 150px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+main {
+  padding: 0 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main h3 span {
+  font-weight: 400;
+  font-style: italic;
+  color: #777;
+}
+
+main ul {
+  list-style: none;
+  margin: 40px 0;
+  padding: 0;
+}
+
+main li {
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+main li:hover {
+  border-color: #ffffff;
+}
+
+main li h2 {
+  margin-top: 0;
+}
+
+main li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+main li i {
+  cursor: pointer;
+}
+
+.fa-trash {
+  color: tomato;
+}
+
+form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+form input,
+form textarea {
+  width: 300px;
+  padding: 14px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  border: 2px solid #444;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
